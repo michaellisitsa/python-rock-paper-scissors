@@ -11,6 +11,9 @@ game.create_object("rock", 1,1)
 game.create_object("scissors", 2,1)
 game.create_object("paper", 2,2)
 
+game.list[0].move_in_direction(1)
+game.list[1].move_in_direction(2)
+print('pos x:',game.list[1].x," y: ",game.list[1].y)
 # Add an attraction and repulsion attribute
 # as a class attribute
 
